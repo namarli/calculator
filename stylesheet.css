@@ -13,9 +13,13 @@ html {
 
 .calculator {
     text-align: center;
-    margin: 0 auto;
+    margin: 70px auto;
     padding: 0px 0;
     width: 400px; 
+	background: #9dd2ea;
+	background: linear-gradient(#9dd2ea, #8bceec);
+	border-radius: 3px;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0,0,0,0.2);
 }
 
 .calculator-screen {
@@ -76,11 +80,11 @@ button {
 }
 
 .operator, .equal-sign {
-    background-color: darkred;
+    background-color: #009de4;
 }
 
 button:hover {
-    background-color: darkgray;
+    background-color: black;
 }
 
 .operator:hover, .equal-sign:hover {
@@ -88,7 +92,7 @@ button:hover {
 }
 
 .watermark { 
-	font-size: 14px;
+	font:normal 14px Roboto;
 	color: darkgrey;
-	position: fixed; bottom: 100px; right: 525px;
+	position: fixed; bottom: 50px; right: 525px;
 }
